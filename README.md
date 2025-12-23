@@ -2,8 +2,8 @@
 
 ## Basic Information
 - **Name:** Weitian Chen (陈蔚天)
-- **Email:** chenweitian@sjtu.edu.cn
-- **GitHub:** https://github.com/w20chen
+- **Email:** chenweitian [at] sjtu [dot] edu [dot] cn
+- **GitHub:** [w20chen](https://github.com/w20chen)
 - **Current Location:** Shanghai, China
 
 ## Education
