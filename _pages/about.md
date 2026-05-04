@@ -24,7 +24,7 @@ Data Department (Graph)
 | July 2025 – Oct. 2025 | Hangzhou, China  
 
 ## Publications
-- **Weitian Chen**, Shixuan Sun, Cheng Chen, Yongmin Hu, Yingqian Hu, Minyi Guo. gMatch: Fine-Grained and Hardware-Efficient Subgraph Matching on GPUs. **(VLDB 2026)** [[full version](https://arxiv.org/abs/2604.10601), [code](https://github.com/SJTU-Liquid/gMatch)]
+- **Weitian Chen**, Shixuan Sun, Cheng Chen, Yongmin Hu, Yingqian Hu, Minyi Guo. *gMatch: Fine-Grained and Hardware-Efficient Subgraph Matching on GPUs*. **(VLDB 2026)** [[full version](https://arxiv.org/abs/2604.10601), [code](https://github.com/SJTU-Liquid/gMatch)]
 
 ## Current Interests
 - Graph Data Analysis & Management
