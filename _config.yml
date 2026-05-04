@@ -23,7 +23,7 @@ repository               : "wchen0/wchen0.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "images/profile.png"
   name             : "Weitian Chen"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
