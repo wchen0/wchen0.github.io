@@ -7,12 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-Weitian Chen is currently a PhD student at the School of Computer Science, Shanghai Jiao Tong University. Previously, he earned his B.S. in Computer Science and Technology from the Department of Computer Science and Technology, Nanjing University.
+Weitian Chen is a Ph.D. candidate in Computer Science and Technology at [the School of Computer Science](https://www.cs.sjtu.edu.cn/en/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), where he works in [the EPCC research group](http://epcc.sjtu.edu.cn/) under the supervision of [Prof. Shixuan Sun](https://shixuansun.github.io/). He previously earned his B.S. in Computer Science and Technology from [the Department of Computer Science and Technology](https://cs.nju.edu.cn/cs_en/), [Nanjing University](https://www.nju.edu.cn/en/).
 
 ## Education
 **Shanghai Jiao Tong University**  
-PhD student in Computer Science and Technology
-| Sep. 2024 – Now | Shanghai, China
+Ph.D. candidate in Computer Science and Technology
+| Sep. 2024 – Present | Shanghai, China
 
 **Nanjing University**  
 B.S. in Computer Science and Technology
@@ -20,7 +20,7 @@ B.S. in Computer Science and Technology
 
 ## Internship
 **ByteDance**  
-Data Department (Graph)
+Graph Team (Data Department)
 | July 2025 – Oct. 2025 | Hangzhou, China  
 
 ## Publications
@@ -28,4 +28,4 @@ Data Department (Graph)
 
 ## Current Interests
 - Graph Data Analysis & Management
-- LLM Agent Serving / Agentic Infra
+- LLM Agent Serving & Agent Infrastructure
