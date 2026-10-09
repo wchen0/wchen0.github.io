@@ -26,7 +26,9 @@ Intern, Graph Team (Data Department)
 Jul. 2025 – Oct. 2025
 
 ## Publications
-- **Weitian Chen**, Shixuan Sun, Cheng Chen, Yongmin Hu, Yingqian Hu, Minyi Guo. *gMatch: Fine-Grained and Hardware-Efficient Subgraph Matching on GPUs*. **(VLDB 2026)** [[paper](https://dl.acm.org/doi/10.14778/3811243.3811248), [full version](https://arxiv.org/abs/2604.10601), [code](https://github.com/SJTU-Liquid/gMatch)]
+- **Weitian Chen**, Shixuan Sun, Cheng Chen, Yongmin Hu, Yingqian Hu, Minyi Guo. *gMatch: Fine-Grained and Hardware-Efficient Subgraph Matching on GPUs*. International Conference on Very Large Data Bases (**VLDB**). 2026. [[paper](https://dl.acm.org/doi/10.14778/3811243.3811248), [full version](https://arxiv.org/abs/2604.10601), [code](https://github.com/SJTU-Liquid/gMatch)]
+
+- Sen Gao, Yongmin Hu, Cheng Chen, **Weitian Chen**, Minyi Guo, Bingsheng He, Shixuan Sun. *FastTGM: Efficient Seed-Rooted Temporal Motif Counting with Compressed States*. ACM SIGMOD International Conference on Management of Data (**SIGMOD**). 2027.
 
 ## Current Interests
 - Graph Data Analysis & Management
