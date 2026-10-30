@@ -3,10 +3,15 @@
    ========================================================================== */
 
 // Determine the expected state of the theme toggle, which can be "dark", "light", or
-// "system". Default is "system".
+// "system". Default is "dark".
 let determineThemeSetting = () => {
-  let themeSetting = localStorage.getItem("theme");
-  return (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "system" : themeSetting;
+  let themeSetting;
+  try {
+    themeSetting = localStorage.getItem("theme");
+  } catch (error) {
+    return "dark";
+  }
+  return (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "dark" : themeSetting;
 };
 
 // Determine the computed theme, which can be "dark" or "light". If the theme setting is
@@ -16,19 +21,12 @@ let determineComputedTheme = () => {
   if (themeSetting != "system") {
     return themeSetting;
   }
-  return (userPref && userPref("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 };
-
-// detect OS/browser preference
-const browserPref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 
 // Set the theme on page load or when explicitly called
 let setTheme = (theme) => {
-  const use_theme =
-    theme ||
-    localStorage.getItem("theme") ||
-    $("html").attr("data-theme") ||
-    browserPref;
+  const use_theme = theme || determineComputedTheme();
 
   if (use_theme === "dark") {
     $("html").attr("data-theme", "dark");
@@ -90,11 +88,11 @@ $(document).ready(function () {
   const scssLarge = 925;          // pixels, from /_sass/_themes.scss
   const scssMastheadHeight = 70;  // pixels, from the current theme (e.g., /_sass/theme/_default.scss)
 
-  // If the user hasn't chosen a theme, follow the OS preference
+  // Default to dark; follow the OS only when explicitly saved as the preference.
   setTheme();
   window.matchMedia('(prefers-color-scheme: dark)')
         .addEventListener("change", (e) => {
-          if (!localStorage.getItem("theme")) {
+          if (determineThemeSetting() === "system") {
             setTheme(e.matches ? "dark" : "light");
           }
         });
